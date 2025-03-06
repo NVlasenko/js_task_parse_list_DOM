@@ -6,6 +6,7 @@ const sortedEmployees = employees.sort((a, b) => {
   const salaryA = parseFloat(
     a.getAttribute('data-salary').replace(/[$,]/g, ''),
   );
+
   const salaryB = parseFloat(
     b.getAttribute('data-salary').replace(/[$,]/g, ''),
   );
